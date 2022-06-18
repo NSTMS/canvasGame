@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+*{
+    padding:0;margin:0;box-sizing: border-box;font-family: 'Mukta', sans-serif;
+
+}
+
+body{
+    height:100vh;
+    display: grid;
+    place-items: center;
+    background-color: #404254;
+}
+
+canvas{
+    margin-top:-200px;
+    border:3px solid #2b2d42;
+}
+nav{
+    width:100%;
+}
+
+.header{
+    position: fixed;
+    top:0;
+    width:100%;
+    height:100px;
+    display:grid;
+    place-items: center;
+    background-color: #2b2d42;
+    color:whitesmoke;
+    font-size:27px;
+    letter-spacing: 2px;
+}
+
+
+
+.points{
+    margin-top:-10px;
+    width:406px;
+    height:40px;
+    background-color: #2b2d42;
+    display:grid;
+    place-items: center;
+    color:whitesmoke;
+
+
+}
+
+.onTrigger{
+    background-color:whitesmoke;
+    
+}
